@@ -1,0 +1,34 @@
+form {
+    .form-group {
+        padding-bottom: 8px;
+    }
+
+    input {
+        height: 44px !important;
+    }
+
+    .form-control {
+        box-shadow: none;
+        font-size: 14px;
+        border-radius: 0;
+    }
+
+    .form-control:focus, .form-control:focus-within {
+        border: 2px #2487ce solid;
+        outline: none;
+        box-shadow: none;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    button[type="submit"], input[type="submit"] {
+        background: #1977cc;
+        border: 0;
+        padding: 10px 35px;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+    }
+}
